@@ -1,7 +1,7 @@
 export interface UserFields {
     username: string;
     password: string;
-    token: srtring;
+    token: string;
 }
 
 export interface Task {

@@ -22,9 +22,7 @@ const auth = async (expressReq: Request, res: Response, next: NextFunction) => {
         res.status(401).send({error: 'Wrong token!'});
         return;
     }
-
     req.user = user;
-
     next();
 };
 
