@@ -5,7 +5,7 @@ export interface UserFields {
 }
 
 export interface Task {
-    user: string;
+    user: Types.ObjectId;
     title: string;
     description: string;
     status: string;
